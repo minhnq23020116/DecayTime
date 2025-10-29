@@ -20,7 +20,7 @@ DecayTime is function in C++14 compute how long it takes for the remaining mass 
     |-------------|--------------|---------------------------|-----------------|
     | initialMass     | double        | Khối lượng ban đầu (g)            | 0 < initialMass <= 10^15     | 
     | halfLife    | double        | Chu kì bán rã (giây)              |  halfLife > 0   |
-    | threshold       | double        | Ngưỡng cho trước (g)                   | 0 < threshold <= initialMass    | 
+    | threshold       | double        | Ngưỡng cho trước (g)                   | 0.1 * initialMass  < threshold <= initialMass    | 
 
 4. Đầu ra (Return)
 
