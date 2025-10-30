@@ -29,5 +29,6 @@ DecayTime is function in C++14 compute how long it takes for the remaining mass 
     Ý nghĩa: Thời gian lượng phóng xạ bán rã đến khi khối lượng bé hơn một ngưỡng cho trước.
 
 5. Công thức tính toán
-    Sau mỗi lần bán rã mất halfLife giây, khối lượng phóng xạ ban đầu giảm đi 1 nửa.
+
+   Sau mỗi lần bán rã mất halfLife giây, khối lượng phóng xạ ban đầu giảm đi 1 nửa.
 
